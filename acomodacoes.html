@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acomodações — Pousada Vila das Pedras</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-scrolled" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="fa-solid fa-leaf"></i>Vila das Pedras</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Acomodações</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="acomodacoes.html">Todas as Acomodações</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#chale-standard">Chalé Standard</a></li>
+              <li><a class="dropdown-item" href="#suite-premium">Suíte Premium</a></li>
+              <li><a class="dropdown-item" href="#cabana-familia">Cabana Família</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          <li class="nav-item"><button class="btn-reserva-nav" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-hero">
+    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&q=80" alt="Acomodações" />
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <div class="container">
+        <span class="eyebrow">Hospedagem</span>
+        <h1>Nossas Acomodações</h1>
+        <p>Conforto rústico em harmonia com a natureza</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+    <section id="chale-standard" class="quarto-detalhe">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-6">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=900&q=80" class="quarto-img" alt="Chalé Standard" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <span class="intro-tag">Standard</span>
+            <h2 class="quarto-title">Chalé Standard</h2>
+            <p class="quarto-desc">Perfeito para casais que buscam tranquilidade e romantismo. Decoração rústica com madeira de demolição, iluminação aconchegante e varanda privativa com vista para o jardim.</p>
+            <ul class="amenidades">
+              <li><i class="fa-solid fa-bed"></i> Cama King Size</li>
+              <li><i class="fa-solid fa-bath"></i> Banheiro privativo</li>
+              <li><i class="fa-solid fa-person-shelter"></i> Varanda com redes</li>
+              <li><i class="fa-solid fa-snowflake"></i> Ar-condicionado</li>
+              <li><i class="fa-solid fa-wifi"></i> Wi-Fi gratuito</li>
+              <li><i class="fa-solid fa-mug-hot"></i> Café da manhã incluso</li>
+            </ul>
+            <div class="d-flex align-items-center gap-4 mt-4">
+              <span class="preco-grande">R$ 350 <small>/noite</small></span>
+              <button class="btn-gold" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar Agora</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="suite-premium" class="quarto-detalhe">
+      <div class="container">
+        <div class="row align-items-center g-5 flex-lg-row-reverse">
+          <div class="col-12 col-lg-6">
+            <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=900&q=80" class="quarto-img" alt="Suíte Premium" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <span class="intro-tag">Premium</span>
+            <h2 class="quarto-title">Suíte Premium</h2>
+            <p class="quarto-desc">Nossa acomodação mais exclusiva. Para quem merece o melhor da Serra. Banheira de imersão com vista para a mata, lareira a lenha e deck panorâmico privativo.</p>
+            <ul class="amenidades">
+              <li><i class="fa-solid fa-bed"></i> Cama Super King</li>
+              <li><i class="fa-solid fa-hot-tub-person"></i> Banheira de imersão</li>
+              <li><i class="fa-solid fa-fire"></i> Lareira a lenha</li>
+              <li><i class="fa-solid fa-person-shelter"></i> Deck panorâmico</li>
+              <li><i class="fa-solid fa-bottle-water"></i> Frigobar premium</li>
+              <li><i class="fa-solid fa-mug-hot"></i> Café da manhã incluso</li>
+            </ul>
+            <div class="d-flex align-items-center gap-4 mt-4">
+              <span class="preco-grande">R$ 580 <small>/noite</small></span>
+              <button class="btn-gold" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar Agora</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="cabana-familia" class="quarto-detalhe">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-6">
+            <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=900&q=80" class="quarto-img" alt="Cabana Família" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <span class="intro-tag">Família</span>
+            <h2 class="quarto-title">Cabana Família</h2>
+            <p class="quarto-desc">Espaço ideal para famílias que querem aproveitar cada momento juntos. Dois quartos, sala integrada com lareira, quintal amplo privativo e churrasqueira.</p>
+            <ul class="amenidades">
+              <li><i class="fa-solid fa-bed"></i> 2 quartos (casal + solteiros)</li>
+              <li><i class="fa-solid fa-couch"></i> Sala com lareira</li>
+              <li><i class="fa-solid fa-house-chimney"></i> Quintal privativo</li>
+              <li><i class="fa-solid fa-grill-hot"></i> Churrasqueira</li>
+              <li><i class="fa-solid fa-person-swimming"></i> Acesso à piscina</li>
+              <li><i class="fa-solid fa-mug-hot"></i> Café da manhã incluso</li>
+            </ul>
+            <div class="d-flex align-items-center gap-4 mt-4">
+              <span class="preco-grande">R$ 720 <small>/noite</small></span>
+              <button class="btn-gold" data-bs-toggle="modal" data-bs-target="#modalReserva">Reservar Agora</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-12 col-md-4">
+          <span class="footer-brand"><i class="fa-solid fa-leaf"></i>Vila das Pedras</span>
+          <p class="footer-desc">Um refúgio de paz e tranquilidade em meio à natureza da Serra Gaúcha.</p>
+          <div class="social-icons mt-4">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <span class="footer-heading">Navegação</span>
+          <ul class="footer-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="acomodacoes.html">Acomodações</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3">
+          <span class="footer-heading">Acomodações</span>
+          <ul class="footer-links">
+            <li><a href="#chale-standard">Chalé Standard</a></li>
+            <li><a href="#suite-premium">Suíte Premium</a></li>
+            <li><a href="#cabana-familia">Cabana Família</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3">
+          <span class="footer-heading">Contato</span>
+          <p class="footer-info"><i class="fa-solid fa-phone"></i>(51) 99999-0000</p>
+          <p class="footer-info"><i class="fa-solid fa-envelope"></i>contato@viladaspedras.com.br</p>
+          <p class="footer-info"><i class="fa-solid fa-location-dot"></i>Serra Gaúcha, RS</p>
+        </div>
+      </div>
+      <hr class="footer-hr" />
+      <p class="footer-copy">© 2025 Pousada Vila das Pedras. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="modalReserva" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"><i class="fa-solid fa-calendar-check me-2" style="color:var(--gold)"></i>Solicitar Reserva</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row g-4">
+            <div class="col-md-6"><label class="form-label">Nome completo</label><input type="text" class="form-control" placeholder="Seu nome" /></div>
+            <div class="col-md-6"><label class="form-label">E-mail</label><input type="email" class="form-control" placeholder="seu@email.com" /></div>
+            <div class="col-md-6"><label class="form-label">Check-in</label><input type="date" class="form-control" /></div>
+            <div class="col-md-6"><label class="form-label">Check-out</label><input type="date" class="form-control" /></div>
+            <div class="col-md-6"><label class="form-label">Acomodação</label><select class="form-select"><option>Selecione...</option><option>Chalé Standard</option><option>Suíte Premium</option><option>Cabana Família</option></select></div>
+            <div class="col-md-6"><label class="form-label">Nº de hóspedes</label><input type="number" class="form-control" min="1" max="8" value="2" /></div>
+            <div class="col-12"><label class="form-label">Observações</label><textarea class="form-control" rows="3" placeholder="Alguma necessidade especial?"></textarea></div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-gold" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn-gold-filled ms-2"><i class="fa-solid fa-paper-plane me-2"></i>Enviar Solicitação</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('mainNavbar').classList.toggle('navbar-scrolled', window.scrollY > 60);
+    });
+  </script>
+</body>
+</html>
